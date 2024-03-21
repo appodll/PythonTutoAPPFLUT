@@ -33,5 +33,5 @@ class DefaultFirebaseOptions {
     }
   }
 
-  //BAXMAQ OLMAZ
+  //BAXMAQ OLMAZ:))
 }
