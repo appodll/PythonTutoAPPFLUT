@@ -20,7 +20,7 @@ class Memory{
     loading.value = false;
     final prefs = await SharedPreferences.getInstance();
     final String? uid = prefs.getString("UID");
-    if (uid != null){
+    if (uid != null && FirebaseAuth.instance.currentUser!.emailVerified){
       Get.to(PAGEVIEW());
     }
     loading.value = true;
